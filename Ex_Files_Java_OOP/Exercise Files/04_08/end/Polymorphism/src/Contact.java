@@ -20,7 +20,7 @@ public class Contact {
     }
 
     @Override
-    public String toString() {
+    public String toString() { // we're using runtime polymorphism default object toString functionality
         return "Contact{" +
                 "name='" + name + '\'' +
                 ", phoneNumber=" + phoneNumber +
