@@ -1,14 +1,7 @@
-import java.sql.Timestamp;
-
-public class MissedPaymentEvent implements Event {
-
-    private Long createdTimestamp;
-    private String id;
+public class MissedPaymentEvent extends SuperEvent {
 
     public MissedPaymentEvent(String id) {
-        this.createdTimestamp = new Timestamp(System
-                .currentTimeMillis()).getTime();
-        this.id = id;
+        super(id);
     }
 
     @Override

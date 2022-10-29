@@ -1,14 +1,7 @@
-import java.sql.Timestamp;
-
-public class PasswordChangeEvent implements Event {
-
-    private final Long createdTimestamp;
-    private final String id;
+public class PasswordChangeEvent extends SuperEvent {
 
     public PasswordChangeEvent(String id) {
-        this.id = id;
-        this.createdTimestamp = new Timestamp(System
-                .currentTimeMillis()).getTime();
+        super(id);
     }
 
     @Override
