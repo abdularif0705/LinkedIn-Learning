@@ -82,10 +82,17 @@ string StudentRecords::get_student_name(int sid){
 }
 
 unsigned char StudentRecords::get_course_credits(int cid){
-	int j = 0;
-	while (j < courses.size() && courses[j].get_id() != cid)
-		j++;
-	return courses[j].get_credits();
+	int i = 0;
+	while (i < courses.size() && courses[i].get_id() != cid)
+		i++;
+	return courses[i].get_credits();
+}
+
+string StudentRecords::get_course_name(int cid){
+  int i = 0;
+  while (i < courses.size() && courses[i].get_id() != cid)
+    i++;
+  return courses[i].get_name();
 }
 
 float StudentRecords::get_GPA(int sid){
@@ -102,12 +109,11 @@ float StudentRecords::get_GPA(int sid){
 
 void StudentRecords::report_card(int sid) {
   float points = 0.0f, credits = 0.0f;
-  cout << "Report Card for " + get_student_name(sid) << endl;
+  cout << endl << "Report Card for " + get_student_name(sid) << endl;
   for (Grade& grd : grades)
     if (grd.get_student_id() == sid) {
-      for (Course &course: courses)
-        if (course.get_id() == grd.get_course_id())
-          cout << "Course: " << course.get_name() << " | Grade: " << grd.get_grade() << endl; // print course and grade
+      // print course and grade
+      cout << "Course: " << get_course_name(grd.get_course_id()) << " | Grade: " << grd.get_grade() << endl;
       // calculate total credits and points
       unsigned char current_credits = get_course_credits(grd.get_course_id());
       credits += current_credits;

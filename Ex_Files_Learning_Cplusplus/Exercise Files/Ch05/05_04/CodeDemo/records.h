@@ -54,6 +54,7 @@ public:
 	void add_grade(int, int, char);
 
 	std::string get_student_name(int);
+	std::string get_course_name(int);
 	unsigned char get_course_credits(int);
 	float get_GPA(int);
 
