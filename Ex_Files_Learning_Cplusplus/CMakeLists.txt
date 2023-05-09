@@ -1,0 +1,114 @@
+cmake_minimum_required(VERSION 3.25)
+project(Ex_Files_Learning_Cplusplus)
+
+set(CMAKE_CXX_STANDARD 20)
+
+include_directories("Exercise Files/Ch02/02_05/End/CodeDemo")
+include_directories("Exercise Files/Ch03/03_03/End/CodeDemo")
+include_directories("Exercise Files/Ch03/03_04/Begin/CodeDemo")
+include_directories("Exercise Files/Ch03/03_04/End/CodeDemo")
+include_directories("Exercise Files/Ch03/03_06_IMPT/Begin/CodeDemo")
+include_directories("Exercise Files/Ch03/03_06_IMPT/End/CodeDemo")
+include_directories("Exercise Files/Ch03/03_07/CodeDemo")
+include_directories("Exercise Files/Ch03/03_08/CodeDemo")
+include_directories("Exercise Files/Ch04/04_05_IMPT_TEST_CODE/CodeDemo")
+include_directories("Exercise Files/Ch04/04_06/CodeDemo")
+include_directories("Exercise Files/Ch05/05_01/Begin/CodeDemo")
+include_directories("Exercise Files/Ch05/05_01/End/CodeDemo")
+include_directories("Exercise Files/Ch05/05_02/Begin/CodeDemo")
+include_directories("Exercise Files/Ch05/05_02/End/CodeDemo")
+include_directories("Exercise Files/Ch05/05_04/CodeDemo")
+include_directories("Exercise Files/Ch05/05_05/CodeDemo")
+include_directories("Exercise Files/Ch06/06_03/CodeDemo")
+include_directories("Exercise Files/Ch06/06_04/CodeDemo")
+
+add_executable(Ex_Files_Learning_Cplusplus
+        "Exercise Files/Ch01/01_03/Begin/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch01/01_03/End/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch01/01_04/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch01/01_05/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch02/02_02/Begin/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch02/02_02/End/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch02/02_04/Begin/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch02/02_04/End/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch02/02_05/Begin/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch02/02_05/End/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch02/02_05/End/CodeDemo/mylib.cpp"
+        "Exercise Files/Ch02/02_05/End/CodeDemo/mylib.hpp"
+        "Exercise Files/Ch02/02_07/Begin/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch02/02_07/End/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch02/02_08/Begin/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch02/02_08/End/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch02/02_09/Begin/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch02/02_09/End/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch02/02_10/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch02/02_11/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch03/03_01/Begin/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch03/03_01/End/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch03/03_02/Begin/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch03/03_02/End/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch03/03_03/Begin/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch03/03_03/End/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch03/03_03/End/CodeDemo/cow.cpp"
+        "Exercise Files/Ch03/03_03/End/CodeDemo/cow.h"
+        "Exercise Files/Ch03/03_04/Begin/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch03/03_04/Begin/CodeDemo/cow.cpp"
+        "Exercise Files/Ch03/03_04/Begin/CodeDemo/cow.h"
+        "Exercise Files/Ch03/03_04/End/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch03/03_04/End/CodeDemo/cow.cpp"
+        "Exercise Files/Ch03/03_04/End/CodeDemo/cow.h"
+        "Exercise Files/Ch03/03_06_IMPT/Begin/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch03/03_06_IMPT/Begin/CodeDemo/cow.cpp"
+        "Exercise Files/Ch03/03_06_IMPT/Begin/CodeDemo/cow.h"
+        "Exercise Files/Ch03/03_06_IMPT/End/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch03/03_06_IMPT/End/CodeDemo/cow.cpp"
+        "Exercise Files/Ch03/03_06_IMPT/End/CodeDemo/cow.h"
+        "Exercise Files/Ch03/03_07/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch03/03_07/CodeDemo/records.cpp"
+        "Exercise Files/Ch03/03_07/CodeDemo/records.h"
+        "Exercise Files/Ch03/03_08/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch03/03_08/CodeDemo/records.cpp"
+        "Exercise Files/Ch03/03_08/CodeDemo/records.h"
+        "Exercise Files/Ch04/04_01/Begin/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch04/04_01/End/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch04/04_02/Begin/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch04/04_02/End/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch04/04_03/Begin/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch04/04_03/End/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch04/04_04/Begin/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch04/04_04/End/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch04/04_05_IMPT_TEST_CODE/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch04/04_05_IMPT_TEST_CODE/CodeDemo/records.cpp"
+        "Exercise Files/Ch04/04_05_IMPT_TEST_CODE/CodeDemo/records.h"
+        "Exercise Files/Ch04/04_06/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch04/04_06/CodeDemo/records.cpp"
+        "Exercise Files/Ch04/04_06/CodeDemo/records.h"
+        "Exercise Files/Ch05/05_01/Begin/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch05/05_01/Begin/CodeDemo/records.cpp"
+        "Exercise Files/Ch05/05_01/Begin/CodeDemo/records.h"
+        "Exercise Files/Ch05/05_01/End/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch05/05_01/End/CodeDemo/records.cpp"
+        "Exercise Files/Ch05/05_01/End/CodeDemo/records.h"
+        "Exercise Files/Ch05/05_02/Begin/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch05/05_02/Begin/CodeDemo/records.cpp"
+        "Exercise Files/Ch05/05_02/Begin/CodeDemo/records.h"
+        "Exercise Files/Ch05/05_02/End/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch05/05_02/End/CodeDemo/records.cpp"
+        "Exercise Files/Ch05/05_02/End/CodeDemo/records.h"
+        "Exercise Files/Ch05/05_03/Begin/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch05/05_03/End/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch05/05_04/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch05/05_04/CodeDemo/records.cpp"
+        "Exercise Files/Ch05/05_04/CodeDemo/records.h"
+        "Exercise Files/Ch05/05_05/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch05/05_05/CodeDemo/records.cpp"
+        "Exercise Files/Ch05/05_05/CodeDemo/records.h"
+        "Exercise Files/Ch06/06_01/Begin/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch06/06_01/End/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch06/06_02/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch06/06_03/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch06/06_03/CodeDemo/records.cpp"
+        "Exercise Files/Ch06/06_03/CodeDemo/records.h"
+        "Exercise Files/Ch06/06_04/CodeDemo/CodeDemo.cpp"
+        "Exercise Files/Ch06/06_04/CodeDemo/records.cpp"
+        "Exercise Files/Ch06/06_04/CodeDemo/records.h" "Exercise Files/Ch02/02_10/CodeDemo/MyChallenge.cpp" "Exercise Files/Ch03/03_06_IMPT/End/CodeDemo/CodeDemo.cpp" "Exercise Files/Ch03/03_06_IMPT/End/CodeDemo/CodeDemo.cpp" "Exercise Files/Ch03/03_06_IMPT/End/CodeDemo/CodeDemo.cpp" "Exercise Files/Ch03/03_06_IMPT/End/CodeDemo/CodeDemo.cpp" "Exercise Files/Ch03/03_06_IMPT/End/CodeDemo/CodeDemo.cpp")
