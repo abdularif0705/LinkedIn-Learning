@@ -101,19 +101,12 @@ float StudentRecords::get_GPA(int sid){
 }
 
 void StudentRecords::report_card(int sid) {
-  cout << "Name: " + StudentRecords::get_student_name(sid) << endl;
-  for (Grade& grd : grades) { // TODO: remove bracket and see if it works
-    if (grd.get_student_id() == sid) {
-      // print course and grade
-      for (Course &course: courses) {
+  cout << "Name: " + get_student_name(sid) << endl;
+  for (Grade& grd : grades)
+    if (grd.get_student_id() == sid) // print course and grade
+      for (Course &course: courses)
         if (course.get_id() == grd.get_course_id())
-          cout << "Course: " << course.get_name() << "Grade: " << grd.get_grade();
-      }
-    }
-  }
-
-
-
-
+          cout << "Course: " << course.get_name() << " | Grade: " << grd.get_grade() << endl;
+  cout << "GPA: " << get_GPA(sid) << endl;
 }
 
