@@ -101,12 +101,18 @@ float StudentRecords::get_GPA(int sid){
 }
 
 void StudentRecords::report_card(int sid) {
-  cout << "Name: " + get_student_name(sid) << endl;
+  float points = 0.0f, credits = 0.0f;
+  cout << "Report Card for " + get_student_name(sid) << endl;
   for (Grade& grd : grades)
-    if (grd.get_student_id() == sid) // print course and grade
+    if (grd.get_student_id() == sid) {
       for (Course &course: courses)
         if (course.get_id() == grd.get_course_id())
-          cout << "Course: " << course.get_name() << " | Grade: " << grd.get_grade() << endl;
-  cout << "GPA: " << get_GPA(sid) << endl;
+          cout << "Course: " << course.get_name() << " | Grade: " << grd.get_grade() << endl; // print course and grade
+      // calculate total credits and points
+      unsigned char current_credits = get_course_credits(grd.get_course_id());
+      credits += current_credits;
+      points += get_num_grade(grd.get_grade()) * current_credits;
+    }
+  cout << "GPA: " << points/credits << endl;
 }
 
