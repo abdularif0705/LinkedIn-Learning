@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 #include "records.h"
 
 using namespace std;
@@ -107,18 +108,35 @@ float StudentRecords::get_GPA(int sid){
   return (points / credits);
 }
 
-void StudentRecords::report_card(int sid) {
+void StudentRecords::report_card(int sid, ostream& stream) { // replaced all cout with stream, if we want to use cout we'll have to send cout as an argument from the main function
   float points = 0.0f, credits = 0.0f;
-  cout << endl << "Report Card for " + get_student_name(sid) << endl;
+  stream << endl << "Report Card for " + get_student_name(sid) << endl;
   for (Grade& grd : grades)
     if (grd.get_student_id() == sid) {
       // print course and grade
-      cout << "Course: " << get_course_name(grd.get_course_id()) << " | Grade: " << grd.get_grade() << endl;
+      stream << "Course: " << get_course_name(grd.get_course_id()) << " | Grade: " << grd.get_grade() << endl;
       // calculate total credits and points
       unsigned char current_credits = get_course_credits(grd.get_course_id());
       credits += current_credits;
       points += get_num_grade(grd.get_grade()) * current_credits;
     }
-  cout << "GPA: " << points/credits << endl;
+  stream << "GPA: " << points / credits << endl;
+}
+
+void StudentRecords::report_file(ofstream& outFile) {
+  int sid;
+  outFile.open("report_cards.txt");
+  if (outFile.fail())
+    cout << endl << "Couldn't open the file!" << endl;
+  else{
+    outFile << "======================================" << endl;
+    for (auto& student : students){
+      sid = student.get_id();
+      report_card(sid, outFile); // sending outFile as the stream argument to write to file
+      outFile << "======================================" << endl;
+    }
+    outFile.close();
+    cout << "Created report_cards.txt successfully" << endl;
+  }
 }
 

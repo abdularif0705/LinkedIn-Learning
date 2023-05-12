@@ -1,0 +1,24 @@
+======================================
+
+Report Card for George P. Burdell
+Course: Algebra | Grade: B
+Course: Physics | Grade: A
+Course: English | Grade: C
+GPA: 3.08333
+======================================
+
+Report Card for Nancy Rhodes
+Course: Algebra | Grade: A
+Course: Physics | Grade: A
+Course: Economics | Grade: B
+GPA: 3.69231
+======================================
+
+Report Card for Abdul Arif
+Course: Algebra | Grade: A
+Course: Physics | Grade: A
+Course: English | Grade: A
+Course: Economics | Grade: A
+Course: C++ | Grade: A
+GPA: 4
+======================================
