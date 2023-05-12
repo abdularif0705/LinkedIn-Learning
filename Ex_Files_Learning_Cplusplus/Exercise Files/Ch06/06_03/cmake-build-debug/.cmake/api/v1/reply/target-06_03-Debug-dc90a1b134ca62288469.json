@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "05_04.exe"
+			"path" : "06_03.exe"
 		},
 		{
-			"path" : "05_04.pdb"
+			"path" : "06_03.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -48,14 +48,14 @@
 					"fragment" : "-g -fdiagnostics-color=always"
 				},
 				{
-					"fragment" : "-std=gnu++14"
+					"fragment" : "-std=gnu++20"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "K:/Users/abdul/Downloads/Ex_Files_Learning_Cplusplus/Exercise Files/Ch05/05_04/CodeDemo"
+					"path" : "K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/CodeDemo"
 				}
 			],
 			"language" : "CXX",
@@ -65,7 +65,7 @@
 				[
 					1
 				],
-				"standard" : "14"
+				"standard" : "20"
 			},
 			"sourceIndexes" : 
 			[
@@ -74,7 +74,7 @@
 			]
 		}
 	],
-	"id" : "05_04::@6890427a1f51a3e7e1df",
+	"id" : "06_03::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -94,8 +94,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "05_04",
-	"nameOnDisk" : "05_04.exe",
+	"name" : "06_03",
+	"nameOnDisk" : "06_03.exe",
 	"paths" : 
 	{
 		"build" : ".",

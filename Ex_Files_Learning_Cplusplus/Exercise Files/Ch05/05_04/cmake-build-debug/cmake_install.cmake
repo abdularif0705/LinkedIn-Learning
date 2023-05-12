@@ -1,4 +1,4 @@
-# Install script for directory: K:/Users/abdul/Downloads/Ex_Files_Learning_Cplusplus/Exercise Files/Ch05/05_04
+# Install script for directory: K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch05/05_04
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "K:/Users/abdul/Downloads/Ex_Files_Learning_Cplusplus/Exercise Files/Ch05/05_04/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch05/05_04/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

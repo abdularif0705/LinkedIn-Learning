@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="06_03"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="06_03">
+				<Option output="K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug/06_03.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/CodeDemo"/>
+					<Add directory="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 06_03"/>
+					<CompileFile command="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="06_03/fast">
+				<Option output="K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug/06_03.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/CodeDemo"/>
+					<Add directory="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 06_03/fast"/>
+					<CompileFile command="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="K:/Tools/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/mingw/bin/mingw32-make.exe -f &quot;K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/CodeDemo/CodeDemo.cpp">
+			<Option target="06_03"/>
+		</Unit>
+		<Unit filename="K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/CodeDemo/records.cpp">
+			<Option target="06_03"/>
+		</Unit>
+		<Unit filename="K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/CodeDemo/records.h">
+			<Option target="06_03"/>
+		</Unit>
+		<Unit filename="K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

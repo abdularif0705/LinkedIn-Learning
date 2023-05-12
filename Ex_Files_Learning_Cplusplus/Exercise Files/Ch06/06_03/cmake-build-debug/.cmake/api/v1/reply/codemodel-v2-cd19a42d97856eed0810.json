@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "06_03",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "06_03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06_03-Debug-dc90a1b134ca62288469.json",
+					"name" : "06_03",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03/cmake-build-debug",
+		"source" : "K:/Users/abdul/GitKraken/LinkedIn Learning/Ex_Files_Learning_Cplusplus/Exercise Files/Ch06/06_03"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
