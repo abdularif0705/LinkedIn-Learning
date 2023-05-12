@@ -23,7 +23,6 @@ int main(){
 
   cout << "Enter a student ID: ";
   cin >> id;
-
   SR.report_card(id, cout); // instead of having 2 functions with one being overloaded, it's cleaner to just have 1 report_card method and send cout as an argument
 	return (0);
 }

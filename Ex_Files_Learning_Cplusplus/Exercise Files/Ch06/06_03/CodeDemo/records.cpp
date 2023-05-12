@@ -125,7 +125,7 @@ void StudentRecords::report_card(int sid, ostream& stream) { // replaced all cou
 
 void StudentRecords::report_file(ofstream& outFile) {
   int sid;
-  outFile.open("report_cards.txt");
+  outFile.open("K:\\Users\\abdul\\GitKraken\\LinkedIn Learning\\Ex_Files_Learning_Cplusplus\\Exercise Files\\Ch06\\06_03\\CodeDemo\\report_cards.txt");
   if (outFile.fail())
     cout << endl << "Couldn't open the file!" << endl;
   else{
