@@ -31,7 +31,7 @@ class Backpack {
     let now = new Date();
     let acquired = new Date(this.dateAcquired);
     let elapsed = now - acquired; // elapsed time in milliseconds
-    let daysSinceAcquired = Math.floor(elapsed / (1000 * 3600 * 24));
+    let daysSinceAcquired = Math.floor(elapsed / (1000 * 3600 * 24)); // divide by 1000 to get seconds, by 3600 to get hours, by 24 to get days. So this will give us the number of days since the backpack was acquired.
     return daysSinceAcquired;
   }
 }

@@ -9,7 +9,7 @@ See! this line is also commented out! */
 
 const updateBackpack = (update) => {
   let main = document.querySelector("main"); // main is an element
-  main.innerHTML = markup(backpack);
+  main.innerHTML = markup(backpack); // update the HTML in the main element
   console.info(update);
 };
 
