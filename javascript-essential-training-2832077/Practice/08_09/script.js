@@ -65,17 +65,17 @@ const addFigure = (dataObj) => {
   let newImage = document.createElement("img");
   newImage.setAttribute("src", dataObj.image);
   newImage.setAttribute("alt", dataObj.name);
-  newFigure.appendChild(newImage);
+  newFigure.append(newImage);
   let newCaption = document.createElement("figcaption");
-  newCaption.innerText = dataObj.description; // dataObj.description;
-  newFigure.appendChild(newImage, newCaption);
+  newCaption.innerText = `${frogpack.name}`; // put it in `` to call the object's name in a template literal, otherwise it will just print "${frogpack.name}" if I use '' or ""
+  newFigure.append(newImage, newCaption); // adds the image and caption to the figure element
   return newFigure;
 }
 
 const createArticle = (frogpack) => {
   const article = document.createElement("article");
   article.innerHTML = content;
-  article.appendChild(addFigure(frogpack));
+  article.append(addFigure(frogpack));
   return article;
 }
 
