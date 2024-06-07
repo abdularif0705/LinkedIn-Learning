@@ -66,7 +66,7 @@ const content = `
  * - Creates <figure> <img> <figcaption>
  * - Returns <figure>
  */
-const addFigure = (dataObj) => {
+const addFigure = (dataObj) => { // use dataObj to pass the frogpack object, can't pass in "document" as an argument because it's a keyword
   let newFigure = document.createElement("figure");
   let newImg = document.createElement("img");
   newImg.setAttribute("src", dataObj.image);
