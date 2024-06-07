@@ -73,9 +73,9 @@ const navContent = `
 `;
 
 const mainNav = document.createElement("nav")
-mainNav.classList.add("main-navigation");
+mainNav.classList.add("main-navigation"); // adding a class to the nav element don't need to add a period because it's not a selector
 const navList = document.createElement("ul")
-navList.innerHTML = navContent
-mainNav.append(navList)
+navList.innerHTML = navContent // adding template literal to the innerHTML of the navList
+mainNav.append(navList) // can't do mainNav.innerHTML = navList because it expects a string not a DOM element
 
 document.querySelector(".siteheader").append(mainNav)

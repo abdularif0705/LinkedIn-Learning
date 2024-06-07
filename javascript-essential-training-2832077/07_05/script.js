@@ -43,5 +43,5 @@ console.log("Original array:", deskArray);
 // @link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
 // @link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf
 // let remove = "notebook";
-// deskArray.splice(deskArray.indexOf(remove), 1);
+// deskArray.splice(deskArray.indexOf(remove), 1); // Remove 1 item at the index of "notebook" by using splice at the index of "notebook" found by indexOf
 // console.log(`Array with "${remove}" removed:`, deskArray);

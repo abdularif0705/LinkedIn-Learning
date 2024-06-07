@@ -50,9 +50,9 @@ const content = `
 
 const main = document.querySelector(".maincontent");
 
-const newArticle = document.createElement("article");
-newArticle.classList.add("backpack");
-newArticle.setAttribute("id", "everyday");
-newArticle.innerHTML = content;
+const newArticle = document.createElement("article"); // Create a new article element, const ensures that the variable can't be reassigned but the content inside the article can be changed like the innerHTML but the article element itself can't be reassigned
+newArticle.classList.add("backpack"); // Add a class of "backpack" to the article element
+newArticle.setAttribute("id", "everyday"); // Add an ID of "everyday" to the article element
+newArticle.innerHTML = content; // Set the INSIDE of the article element tags to the content variable (the template literal above)
 
-main.append(newArticle);
+main.append(newArticle); // Append the new article element to the main element
