@@ -8,7 +8,7 @@
 import backpackObjectArray from "./components/data.js";
 
 // Map throught the array and make a new array
-const content = backpackObjectArray.map((backpack) => {
+const content = backpackObjectArray.map((backpack) => { // map method allows us to call a callback function on each element of the array and then reurn the result of that callback function into the content array (our container). 1) grab an item, 2) generate HTML for that item, 3) return the HTML for that item into the content array.
   // "backpack" now holds a single backpack object
 
   // Create new article

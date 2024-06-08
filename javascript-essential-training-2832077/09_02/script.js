@@ -18,11 +18,13 @@ button.addEventListener("click", () => {
 const mousePosition = (event) => {
   posX.innerText = event.pageX;
   posY.innerText = event.pageY;
+  console.log(event); // Log the event object to the console. Check the event object in the console, and it will show you ALL the properties and methods available.
 };
 
-window.addEventListener("mousemove", mousePosition, false);
+// append addEventListener tp the window object to track the mouse position. That means everything inside the window will be tracked.
+window.addEventListener("mousemove", mousePosition, false); // Triggered every time the mouse moves. And we call the mousePosition function. 
 
-// Change the color of the box when the mouse enters.
+// Change the color of the box when the mouse enters and leaves the container.
 container.addEventListener(
   "mouseenter",
   () => {

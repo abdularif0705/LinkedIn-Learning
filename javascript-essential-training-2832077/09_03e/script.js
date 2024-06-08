@@ -40,11 +40,11 @@ const backpackList = backpackObjectArray.map((backpack) => {
   `;
 
   const button = backpackArticle.querySelector(".lid-toggle")
-  const status = backpackArticle.querySelector(".backpack__lid span")
+  const status = backpackArticle.querySelector(".backpack__lid span") // get the span element
 
   button.addEventListener("click", (event) => {
     console.log(event)
-    status.innerText === "open" ? status.innerText = "closed" : status.innerText = "open"
+    status.innerText === "open" ? status.innerText = "closed" : status.innerText = "open" // change the text content of the span element Lid status: <span>open</span> to closed or open
   })
 
   return backpackArticle;

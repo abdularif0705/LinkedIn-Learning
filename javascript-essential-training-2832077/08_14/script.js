@@ -56,7 +56,7 @@ for (let i = 0; i < stuff.length; i++) {
  * for...of loop and arrays
  * @link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of
  */
-// for (const item of stuff) {
+// for (const item of stuff) { // same as for item in stuff in Python
 //   let listItem = document.createElement("li");
 //   listItem.innerHTML = item;
 //   stuffList.append(listItem);
@@ -66,7 +66,7 @@ for (let i = 0; i < stuff.length; i++) {
  * foreach array method
  * @link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
  */
-// stuff.forEach((item) => {
+// stuff.forEach((item) => { // preferred method for arrays in JavaScript. Grabs each item in the array and performs an action on it in the form of a callback function. Difference between for...of loop because we don't have to declare a variable to hold the item. Therefore, it's cleaner and more concise.
 //   let listItem = document.createElement("li");
 //   listItem.innerHTML = item;
 //   stuffList.append(listItem);
@@ -76,7 +76,7 @@ for (let i = 0; i < stuff.length; i++) {
  * for...in loop and objects
  * @link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of
  */
-// for (const singleObject in nestedObjects) {
+// for (const singleObject in nestedObjects) { // use in for objects
 //   let listItem = document.createElement("li");
 //   listItem.innerHTML = `Name: ${nestedObjects[singleObject].name}`;
 //   stuffList.append(listItem);
