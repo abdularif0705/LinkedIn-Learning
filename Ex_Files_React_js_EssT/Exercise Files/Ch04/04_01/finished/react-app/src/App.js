@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-function App() {
+const [firstCity, second] = ["Toronto", "New York", "Los Angeles", "Chicago"];
+console.log(firstCity); // Toronto
+console.log(second); // New York
+
+function App({ library }) { // destructuring the library prop from the props object by reaching in and grabbing it by its key
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello from {library}</h1>
     </div>
   );
 }

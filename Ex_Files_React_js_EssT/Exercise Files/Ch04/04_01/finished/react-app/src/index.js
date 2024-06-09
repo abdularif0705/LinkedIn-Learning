@@ -1,12 +1,13 @@
+// entry point of our application
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
+ReactDOM.render( // render our app component to the root element in the index.html file in the public folder
+  <React.StrictMode> {/* StrictMode is a tool for highlighting potential problems in an application. */}
+    <App library="Windsor" />
   </React.StrictMode>,
   document.getElementById('root')
 );
