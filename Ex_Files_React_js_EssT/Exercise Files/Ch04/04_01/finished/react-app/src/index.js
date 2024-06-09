@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render( // render our app component to the root element in the index.html file in the public folder
   <React.StrictMode> {/* StrictMode is a tool for highlighting potential problems in an application. */}
-    <App library="Windsor" />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
