@@ -27,9 +27,15 @@
       function Main(props) {
         return (
           <section>
+            <img
+            height={200} 
+            src="https://images.pexels.com/photos/761854/pexels-photo-761854.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+            alt="Girls eating."
             <ul>
-              {props.dishes.map((dish, i) => (
-                <li key={i}>{dish}</li>
+              {props.dishes.map((dish) => (
+                <li key={dish.id}>
+                  {dish.title}
+                  </li>
               ))}
             </ul>
             {/*<ul> {/* not recommended way of doing it React gives warning  Warning: Each child in a list should have a unique "key" prop*/}
@@ -55,6 +61,25 @@
         "Salmon and Potatoes"
       ];
 
+      // So you might be thinking, isn't this the same, because we're just using an index again? Not really, because the data is actually stable. We've created it using this function instead of being created while the list items are being rendered. Check the commented out code above to see the difference. 
+      // Another thing to think about is that your data already might look like this, so you could just use an ID or another unique field if you are already dealing with an array of objects. 
+      // IMPT: Her statement above suggests that if your data already includes unique identifiers (like an id field), you should use those identifiers as keys. This is often the case when dealing with arrays of objects fetched from a database or an API, where each object typically has a unique identifier.
+      /* 
+      const dishesObj = [
+        { id: 1, title: "Black Bean Soup" },
+        { id: 2, title: "Macaroni and Cheese" },
+        { id: 3, title: "Salmon and Potatoes" }
+      ]; 
+
+      You can directly use the id field as the key in our Main function:
+
+      {props.dishes.map((dish) => (
+        <li key={dish.id}>
+          {dish.title}
+        </li>
+      ))}
+*/
+      // Keys help keep your data in sync as your application state changes over time, so this is why it's really important to add them anytime you're trying to iterate over something and return a dynamic value. 
       const dishesObj = dishes.map((dish, i) => ({ // arrow function has to point to parentheses and then curly braces, In JavaScript, when using arrow functions, if you want to return an object directly, you need to wrap the object in parentheses. This is because curly braces {} are interpreted as the start of a function body, not an object literal.
         id: i,
         title: dish
@@ -66,7 +91,7 @@
             <Header name="Abdul" />
             <Main
               adjective="amazing"
-              dishes={dishes}
+              dishes={dishesObj}
             />
             <Footer
               year={new Date().getFullYear()}
