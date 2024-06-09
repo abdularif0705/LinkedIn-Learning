@@ -28,10 +28,15 @@
         return (
           <section>
             <ul>
-              {props.dishes.map((dish) => (
-                <li>{dish}</li>
+              {props.dishes.map((dish, i) => (
+                <li key={i}>{dish}</li>
               ))}
             </ul>
+            {/*<ul> {/* not recommended way of doing it React gives warning  Warning: Each child in a list should have a unique "key" prop*/}
+              {/*{props.dishes.map((dish, i) => (
+                <li key={i}>{dish}</li>
+              ))}
+            </ul>*/}
           </section>
         );
       }
@@ -50,10 +55,15 @@
         "Salmon and Potatoes"
       ];
 
+      const dishesObj = dishes.map((dish, i) => ({ // arrow function has to point to parentheses and then curly braces, In JavaScript, when using arrow functions, if you want to return an object directly, you need to wrap the object in parentheses. This is because curly braces {} are interpreted as the start of a function body, not an object literal.
+        id: i,
+        title: dish
+      }))
+
       function App() {
         return (
           <div>
-            <Header name="Cindy" />
+            <Header name="Abdul" />
             <Main
               adjective="amazing"
               dishes={dishes}
